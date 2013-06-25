@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language>
+	
+	<dir>rtl</dir>
+	<country>Egypt</country>
+	<stringInEnglish>Arabic</stringInEnglish>
+	
+	<default>
+		<string id="application name">العمليات الحسابية</string>
+		<string id="close">إغلاق</string>
+		<string id="cancel">إلغاء</string>
+		<string id="next">التالي ></string>
+		<string id="finish">إنهاء</string>
+		<string id="of">من - </string>
+		<string id="send">إرسال</string>
+		<string id="yes">نعم</string>
+		<string id="no">لا</string>
+
+		<!-- peulot -->
+		<string id="plus">إضافة</string>
+		<string id="minus">طرح</string>
+		<string id="kefel">تضاعف</string>
+		<string id="hiluk">تقسيم</string>
+		<string id="random">عمليات عشوائية</string>
+		<string id="compare">مقارنة</string>
+		
+		<string id="time">مرة - </string>
+		<string id="msgBox mark title">الصف</string>
+		<string id="msgBox mark text">الصف الخاص بك</string>
+		<!-- end peulot -->
+	</default>
+	
+	<form id="main">
+		<string id="title">الرئيسية</string>
+
+		<!-- menu -->
+		
+		<string id="menu_file">الملف</string>
+		<string id="menu_file_name">تغيير اسم</string>
+		<string id="menu_file_save">حفظ الصفوف</string>
+		<string id="menu_file_exit">خروج</string>
+		<string id="menu_file_language">إضافة/تحديث اللغة</string>
+		<string id="menu_file_changeDifficulty">التغيير صعوبة</string>
+		<string id="menu_file_changeFont">تغيير الخط</string>
+		
+		<string id="menu_clear">مسح ملفات</string>
+		<string id="menu_clear_settings">حذف خصائص</string>
+		<string id="menu_clear_clearAllData">حذف كافة المعلومات</string>
+		<string id="menu_clear_marks">واضح درجات الملف</string>
+		
+		<string id="menu_about">حول</string>
+		<string id="menu_about_contact">جهة الاتصال</string>
+		<string id="menu_about_about">حول</string>
+
+		<!-- end menu -->
+
+		<!-- tab page -->
+		<string id="tabPage_hiuvi">عادي</string>
+		<string id="tabPage_mehuvanim">حقيقي</string>
+		<string id="tabPage_shever">الشظايا</string>
+		<string id="tabPage_ahuzim">النسبة المئوية</string>
+		<string id="tabPage_watchResults">النتائج</string>
+		<!-- end tab page -->
+
+		<!-- open window buttons -->
+		<string id="watch all individual">مشاهدة الدرجات كل على حدة</string>
+		<string id="watch all table">مشاهدة كافة الصفوف في الجدول</string>
+		<!-- end open window buttons -->
+	</form>
+	
+	<form id="ask name">
+		<string id="title">الاسم</string>
+		<string id="label3">اسم العائلة:</string>
+		<string id="label2">الاسم الأول:</string>
+		<string id="button1">موافق</string>
+		<string id="missing">مفقود!</string>
+	</form>
+	
+	<form id="login">
+		<string id="title">الدخول</string>
+
+		<!-- controls -->
+		<string id="lb_username">اسمك:</string>
+		<string id="lb_password">كلمة المرور:</string>
+		<string id="bt_submit">الدخول</string>
+		<string id="cb_remember">تذكر الحساب الخاص بي</string>
+		<!-- end controls -->
+
+		<string id="error1_title">اسم المستخدم وكلمة المرور غير صحيحة</string>
+		<string id="error1_text">اسم المستخدم وكلمة المرور غير صحيحة.{0}يتم ترك يحاول {1}</string>
+		
+		<string id="error2_text">أنت تحاول أوقات كثيرا. ونفى ألق.</string>
+		<string id="error2_title">تم رفض الوصول</string>
+	</form>
+	
+	<form id="SeeMarks">
+		<string id="title">الدرجات</string>
+		<string id="lb_name">الاسم</string>
+		<string id="lb_date">بلح</string>
+		<string id="lb_Time">الوقت</string>
+		<string id="lb_type">عملية</string>
+		<string id="lb_mark">الصف</string>
+		<string id="lb_finishTime">وقت العمل</string>
+		<string id="lb_difficulty">صعوبة</string>
+		<string id="bt_prev">السابق</string>
+		<string id="bt_next">القادم</string>
+		<string id="bt_remove">إزالة</string>
+
+		<!-- errors -->
+		<string id="error title">خطأ</string>
+		<string id="error empty file">الملف فارغ</string>
+		<!-- end errors -->
+	</form>
+	
+	<form id="About">
+		<string id="title">حول</string>
+		<string id="lb_productName">اسم المنتج: العمليات الحسابية</string>
+		<string id="lb_version">الإصدار : </string>
+		<string id="lb_copyrights">حقوق ريسورفيد لآرثر زامارين</string>
+		<string id="lb_text">وصف البرنامج:</string>
+		<string id="textBox_line 1">هذا هو البرمجيات الخاصة التي تساعد على تعلم العمليات الحسابية بطرق مختلفة.</string>
+		<string id="textBox_line 2">البرنامج سهل جداً للاستخدام.</string>
+		<string id="textBox_line 3">البرنامج يسمح للمستخدم بإجراء اختبار للعمليات الحسابية،  المستخدم إجابات 10 الأسئلة (عادة). وأخيراً، البرنامج التحقق من الإجابات ويحصل المستخدم الصف.</string>
+		<string id="textBox_line 4">وأخيراً، البرنامج السجلات أيضا على الكمبيوتر جميع الدرجات الخاصة بك حيث سوف تتمكن من مشاهدتها دائماً من نفس جهاز الكمبيوتر.</string>
+	</form>
+	
+	<form id="AllMarks_organize">
+		<string id="title">كافة الصفوف في جدول</string>
+		<string id="label1">الفرز:</string>
+		<string id="rb_all">إظهار الكل</string>
+		<string id="rb_date">بقرب بلح:</string>
+		<string id="rb_name">بقرب اسم:</string>
+		<string id="rb_peula">بقرب العملية:</string>
+		<string id="choose">اختر</string>
+	</form>
+	
+	<form id="contact">
+		<string id="title">جهة الاتصال</string>
+		<string id="text">إذا كنت ترغب في الاتصال معي الخيار الخاص بك هو: {0} البريد الإلكتروني-{1} {0} عند قيامك بإرسال لي رسالة تشرح لك الأفضل.{0}حظ سعيد.</string>
+	</form>
+	
+	<form id="ChangeDifficulty">
+		<string id="title">التغيير صعوبة</string>
+		<string id="lb_text">اختر الصعوبة:</string>
+		<string id="easy">سهلة</string>
+		<string id="medium">متوسطة</string>
+		<string id="hard">القرص الصلب</string>
+	</form>
+	
+	<form id="ChangeFont">
+		<string id="title">تغيير الخط</string>
+		<string id="lb_text">اختيار الخط:</string>
+		<string id="lb_font">نوع:</string>
+		<string id="lb_size">size:</string>
+	</form>
+	
+	<form id="register">
+		<string id="welcome title">مرحبا</string>
+		<string id="welcome text">في عملية التثبيت هذه سوف تقوم بتثبيت البرنامج "عمليات حسابية".{0}وغرض البرنامج هو دراسة الرياضيات.</string>
+		
+		<string id="properties title">خصائص</string>
+  		<string id="properties label1">الآن يمكنك اختيار خصائص الخاص بك:</string>
+  		<string id="properties1 label2">سيقوم البرنامج بحفظ ملفات أنها:</string>
+  		<string id="properties1 rb_folder_auto">في مكان أوتوماتيس</string>
+  		<string id="properties1 rb_folder_manual">أنا سوف تختار المجلد</string>
+  		<string id="properties1 bt_chooseFolder">اختر...</string>
+  		<string id="properties2 cb_oneRememberedName">وسوف يعمل البرنامج مع اسم واحد فقط:</string>
+  		<string id="properties2 label4">للقيام الخاص يخفف لك ستحتاج إلى تسجيل الدخول.{0} اختر اسم المستخدم وكلمة المرور:</string>
+  		
+		<string id="finish title">إنهاء</string>
+  		<string id="finish text">شكرا لك على تثبيت البرنامج "عمليات حسابية".{0}{0}الآن سيتم إعادة تشغيل البرنامج، وسوف تكون قادراً على استخدامه عادة.{0}حظ سعيد!</string>
+	</form>
+	
+	<peula id="numbers">
+		<string id="AbleDivide title">علامات الانقسام</string>
+		<string id="AbleDivide divideable">القسمة على </string>
+	</peula>
+</language>

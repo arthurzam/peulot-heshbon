@@ -1,0 +1,12 @@
+default
+form[@id='main']
+form[@id='ask name']
+form[@id='login']
+form[@id='SeeMarks']
+form[@id='About']
+form[@id='AllMarks_organize']
+form[@id='contact']
+form[@id='ChangeDifficulty']
+form[@id='ChangeFont']
+form[@id='register']
+peula[@id='numbers']"

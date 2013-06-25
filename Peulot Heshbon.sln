@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Peulot Heshbon", "Peulot Heshbon\Peulot Heshbon.csproj", "{99A12A68-8701-4ED3-9923-2ED4BD7A29B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Helping Projects", "Helping Projects", "{B3826012-6ECC-43FF-99D0-09A670851A6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeulotHeshbon.ExcelLibrary", "Helping Projects\ExcelLibrary\PeulotHeshbon.ExcelLibrary.csproj", "{5F4C2DEA-BEF6-4D27-8143-B09E332066F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{77650C93-98D0-40C5-AF15-60D40121C279}"
+	ProjectSection(SolutionItems) = preProject
+		Arabic.xml = Arabic.xml
+		English.xml = English.xml
+		Hebrew.xml = Hebrew.xml
+		Russian.xml = Russian.xml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeulotHeshbon.ZipLibrary", "Helping Projects\ZipLibrary\PeulotHeshbon.ZipLibrary.csproj", "{28F0627F-A437-45B0-B498-0DEE6E37E7EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99A12A68-8701-4ED3-9923-2ED4BD7A29B8}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{99A12A68-8701-4ED3-9923-2ED4BD7A29B8}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{99A12A68-8701-4ED3-9923-2ED4BD7A29B8}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{99A12A68-8701-4ED3-9923-2ED4BD7A29B8}.Debug|x86.ActiveCfg = Debug|x86
+		{99A12A68-8701-4ED3-9923-2ED4BD7A29B8}.Debug|x86.Build.0 = Debug|x86
+		{99A12A68-8701-4ED3-9923-2ED4BD7A29B8}.Release|Any CPU.ActiveCfg = Release|x86
+		{99A12A68-8701-4ED3-9923-2ED4BD7A29B8}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{99A12A68-8701-4ED3-9923-2ED4BD7A29B8}.Release|Mixed Platforms.Build.0 = Release|x86
+		{99A12A68-8701-4ED3-9923-2ED4BD7A29B8}.Release|x86.ActiveCfg = Release|x86
+		{99A12A68-8701-4ED3-9923-2ED4BD7A29B8}.Release|x86.Build.0 = Release|x86
+		{5F4C2DEA-BEF6-4D27-8143-B09E332066F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F4C2DEA-BEF6-4D27-8143-B09E332066F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F4C2DEA-BEF6-4D27-8143-B09E332066F1}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5F4C2DEA-BEF6-4D27-8143-B09E332066F1}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5F4C2DEA-BEF6-4D27-8143-B09E332066F1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5F4C2DEA-BEF6-4D27-8143-B09E332066F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F4C2DEA-BEF6-4D27-8143-B09E332066F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F4C2DEA-BEF6-4D27-8143-B09E332066F1}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5F4C2DEA-BEF6-4D27-8143-B09E332066F1}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{5F4C2DEA-BEF6-4D27-8143-B09E332066F1}.Release|x86.ActiveCfg = Release|Any CPU
+		{28F0627F-A437-45B0-B498-0DEE6E37E7EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28F0627F-A437-45B0-B498-0DEE6E37E7EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28F0627F-A437-45B0-B498-0DEE6E37E7EC}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{28F0627F-A437-45B0-B498-0DEE6E37E7EC}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{28F0627F-A437-45B0-B498-0DEE6E37E7EC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{28F0627F-A437-45B0-B498-0DEE6E37E7EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28F0627F-A437-45B0-B498-0DEE6E37E7EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28F0627F-A437-45B0-B498-0DEE6E37E7EC}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{28F0627F-A437-45B0-B498-0DEE6E37E7EC}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{28F0627F-A437-45B0-B498-0DEE6E37E7EC}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5F4C2DEA-BEF6-4D27-8143-B09E332066F1} = {B3826012-6ECC-43FF-99D0-09A670851A6D}
+		{28F0627F-A437-45B0-B498-0DEE6E37E7EC} = {B3826012-6ECC-43FF-99D0-09A670851A6D}
+	EndGlobalSection
+EndGlobal

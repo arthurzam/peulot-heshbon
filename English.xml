@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language>
+
+	<dir>ltr</dir>
+	<country>US</country>
+	<stringInEnglish>English</stringInEnglish>
+
+	<default>
+		<string id="application name">Arithmetic Operations</string>
+		<string id="close">Close</string>
+		<string id="cancel">Cancel</string>
+		<string id="next">next ></string>
+		<string id="finish">Finish</string>
+		<string id="of">of -</string>
+		<string id="send">Send</string>
+		<string id="yes">yes</string>
+		<string id="no">no</string>
+
+		<!-- peulot -->
+		<string id="plus">addition</string>
+		<string id="minus">subtraction</string>
+		<string id="kefel">multiplication</string>
+		<string id="hiluk">divide</string>
+		<string id="random">Random Operations</string>
+		<string id="compare">Compare</string>
+		<string id="time">time - </string>
+
+		<string id="msgBox mark title">grade</string>
+		<string id="msgBox mark text">your grade is</string>
+		<!-- end peulot -->
+	</default>
+
+	<form id="main">
+		<string id="title">Home</string>
+
+		<!-- menu -->
+
+		<string id="menu_file">File</string>
+		<string id="menu_file_name">Change Name</string>
+		<string id="menu_file_save">Save Grades as</string>
+		<string id="menu_file_exit">Exit</string>
+		<string id="menu_file_language">Update Language</string>
+		<string id="menu_file_changeDifficulty">Change Difficulty</string>
+		<string id="menu_file_changeFont">Change Font</string>
+
+		<string id="menu_clear">Clear Files</string>
+		<string id="menu_clear_settings">Delete Properties</string>
+		<string id="menu_clear_clearAllData">Delete All Information</string>
+		<string id="menu_clear_marks">Clear Grades File</string>
+
+		<string id="menu_about">About</string>
+		<string id="menu_about_contact">Contact</string>
+		<string id="menu_about_about">About</string>
+
+		<!-- end menu -->
+
+		<!-- tab page -->
+		<string id="tabPage_hiuvi">Normal</string>
+		<string id="tabPage_mehuvanim">Real</string>
+		<string id="tabPage_shever">Fragments</string>
+		<string id="tabPage_ahuzim">Percentage</string>
+		<string id="tabPage_watchResults">Results</string>
+		<!-- end tab page -->
+
+		<!-- open window buttons -->
+		<string id="watch all individual">Watch all grades individually</string>
+		<string id="watch all table">Watch all grades in table</string>
+		<!-- end open window buttons -->
+	</form>
+
+	<form id="ask name">
+		<string id="title">Name</string>
+		<string id="label3">Last Name:</string>
+		<string id="label2">First Name:</string>
+		<string id="button1">OK</string>
+		<string id="missing">Missing!</string>
+	</form>
+
+	<form id="login">
+		<string id="title">Log in</string>
+		
+		<!-- controls -->
+		<string id="lb_username">username:</string>
+		<string id="lb_password">password:</string>
+		<string id="bt_submit">Log-in</string>
+		<string id="cb_remember">remember me</string>
+		<!-- end controls -->
+
+		<string id="error1_title">username or password aren't correct</string>
+		<string id="error1_text">username or password aren't correct.{0}{1} tries are left</string>
+
+		<string id="error2_text">You tried too much times. Access denied.</string>
+		<string id="error2_title">Access denied</string>
+	</form>
+
+	<form id="SeeMarks">
+		<string id="title">Grades</string>
+		<string id="lb_name">name</string>
+		<string id="lb_date">date</string>
+		<string id="lb_Time">time</string>
+		<string id="lb_type">operation</string>
+		<string id="lb_mark">grade</string>
+		<string id="lb_finishTime">work time</string>
+		<string id="lb_difficulty">difficulty</string>
+		<string id="bt_prev">Prev</string>
+		<string id="bt_next">Next</string>
+		<string id="bt_remove">Remove</string>
+
+		<!-- errors -->
+		<string id="error title">Error</string>
+		<string id="error empty file">Empty file</string>
+		<!-- end errors -->
+	</form>
+
+	<form id="About">
+		<string id="title">About</string>
+		<string id="lb_productName">Product Name : Arithmetic Operations</string>
+		<string id="lb_version">Version : </string>
+		<string id="lb_copyrights">Rights are resorved to Arthur Zamarin</string>
+		<string id="lb_text">Program description:</string>
+		<string id="textBox_line 1">This is special software that helps learning arithmetic operations in various ways.</string>
+		<string id="textBox_line 2">The software is very easy to use.</string>
+		<string id="textBox_line 3">The software allows the user to make a test of arithmetic operations, thus giving an exercise, the user answers 10 questions (usually). Finally, the software checks the answers and the user gets the grade.</string>
+		<string id="textBox_line 4">Finally, the software also records on the computer all your grades so you will be able to watch them always from the same computer.</string>
+	</form>
+
+	<form id="AllMarks_organize">
+		<string id="title">All Grades in a Table</string>
+		<string id="label1">sort:</string>
+		<string id="rb_all">show all</string>
+		<string id="rb_date">by date:</string>
+		<string id="rb_name">by name:</string>
+		<string id="rb_peula">by operation:</string>
+		<string id="choose">Choose</string>
+	</form>
+
+	<form id="contact">
+		<string id="title">Contact</string>
+		<string id="text">If you want to contact with me your option is:{0}e-mail  - {1}{0}When you are sending me a message please explain you the best.{0}Good luck.</string>
+	</form>
+
+	<form id="ChangeDifficulty">
+		<string id="title">Change Difficulty</string>
+		<string id="lb_text">Choose Difficulty:</string>
+		<string id="easy">Easy</string>
+		<string id="medium">Medium</string>
+		<string id="hard">Hard</string>
+	</form>
+
+	<form id="ChangeFont">
+		<string id="title">Change Font</string>
+		<string id="lb_text">choose font:</string>
+		<string id="lb_font">type:</string>
+		<string id="lb_size">size:</string>
+	</form>
+	
+	<form id="register">
+		<string id="welcome title">Welcome</string>
+		<string id="welcome text">In this installation process you will install the software "Arithmetic Operations".{0}The purpose of program is studying mathematics.</string>
+
+		<string id="properties title">Properties</string>
+		<string id="properties label1">Now you can choose your properties:</string>
+		<string id="properties1 label2">The software will save it's files:</string>
+		<string id="properties1 rb_folder_auto">In the automatis place (recommended)</string>
+		<string id="properties1 rb_folder_manual">I will choose the folder (not recommended)</string>
+		<string id="properties1 bt_chooseFolder">choose...</string>
+		<string id="properties2 cb_oneRememberedName">Program will work with only one name:</string>
+		<string id="properties2 label4">For doing special thins you will{0}need to login. Choose username and password:</string>
+
+		<string id="finish title">Finish</string>
+		<string id="finish text">Thank you for installing the software "Arithmetic Operations".{0}{0}Now the software will restart and you will be able to use it normally.{0}Good luck!</string>
+	</form>
+
+	<peula id="numbers">
+		<string id="AbleDivide title">Signs of division</string>
+		<string id="AbleDivide divideable">is divisible by </string>
+	</peula>
+</language>

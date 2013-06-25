@@ -1,0 +1,115 @@
+﻿using System;
+
+namespace SimanayCreate
+{
+    internal class Program
+    {
+        private static Random r;
+
+        private static void Main(string[] args)
+        {
+            r = new Random();
+            for (; ; )
+            {
+                Console.WriteLine(f(0, 10, CreateOptions.UnsignedInteger, 1, 5));
+                Console.ReadKey();
+                Console.Clear();
+            }
+        }
+
+        private static CreateResult f(int size, int max, CreateOptions options, int MIN_ABS_NUM = 0, int MAX_ABS_NUM = 10, bool must = false, int RightAnswer = int.MinValue)
+        {
+            object num1;
+            if (size >= max && !must)
+            {
+                if (RightAnswer != int.MinValue)
+                    num1 = RightAnswer;
+                else if (options == CreateOptions.UnsignedInteger)
+                    num1 = (r.Next(2) == 1 ? r.Next(MIN_ABS_NUM, MAX_ABS_NUM + 1) : -1 * r.Next(MIN_ABS_NUM, MAX_ABS_NUM + 1));
+                else
+                    num1 = r.Next(MIN_ABS_NUM, MAX_ABS_NUM + 1);
+                return new CreateResult() { Res = (int)num1, Str = ((int)num1 < 0 ? "(" + num1.ToString() + ")" : num1.ToString()) };
+            }
+            object num2, temp;
+            do
+            {
+                switch (r.Next(10))
+                {
+                    case 1:
+                        num1 = f(size + 2, max, options, MIN_ABS_NUM, MAX_ABS_NUM);
+                        if (RightAnswer == int.MinValue)
+                            num2 = f(size + 2, max, options, MIN_ABS_NUM, MAX_ABS_NUM);
+                        else
+                            num2 = f(size + 2, max, options, MIN_ABS_NUM, MAX_ABS_NUM, false, RightAnswer - ((CreateResult)num1).Res);
+                        return new CreateResult() { Str = num1.ToString() + " + " + num2.ToString(), Res = ((CreateResult)num1).Res + ((CreateResult)num2).Res };
+                    case 2:
+                        num1 = f(size + 2, max, options, MIN_ABS_NUM, MAX_ABS_NUM);
+                        if (RightAnswer == int.MinValue)
+                            num2 = f(size + 2, max, options, MIN_ABS_NUM, MAX_ABS_NUM);
+                        else
+                            num2 = f(size + 2, max, options, MIN_ABS_NUM, MAX_ABS_NUM, false, RightAnswer + ((CreateResult)num1).Res);
+                        if (options == CreateOptions.UnsignedInteger && ((CreateResult)num2).Res > ((CreateResult)num1).Res)
+                        {
+                            return new CreateResult() { Str = num2.ToString() + " - " + num1.ToString(), Res = ((CreateResult)num2).Res - ((CreateResult)num1).Res };
+                        }
+                        return new CreateResult() { Str = num1.ToString() + " - " + num2.ToString(), Res = ((CreateResult)num1).Res - ((CreateResult)num2).Res };
+                    case 3:
+                        num1 = f(size + 2, max, options, MIN_ABS_NUM, MAX_ABS_NUM);
+                        num2 = f(size + 2, max, options, MIN_ABS_NUM, MAX_ABS_NUM);
+                        if (RightAnswer != int.MinValue) break;
+                        return new CreateResult() { Str = num1.ToString() + " * " + num2.ToString(), Res = ((CreateResult)num1).Res * ((CreateResult)num2).Res };
+                    case 4:
+                        if (RightAnswer != int.MinValue) break;
+                        if (MAX_ABS_NUM == 0 && MIN_ABS_NUM == 0)
+                            throw new Exception();
+                        do
+                        {
+                            num2 = f(size + 2, max, options, MIN_ABS_NUM, MAX_ABS_NUM);
+                        } while ((((CreateResult)num2).Res) == 0);
+                        {
+                            int ans;
+                            if (options == CreateOptions.UnsignedInteger)
+                                ans = (r.Next(2) == 1 ? r.Next(MIN_ABS_NUM, MAX_ABS_NUM + 1) : -1 * r.Next(MIN_ABS_NUM, MAX_ABS_NUM + 1));
+                            else
+                                ans = r.Next(MIN_ABS_NUM, MAX_ABS_NUM + 1);
+
+                            num1 = f(size + 2, max, options, MIN_ABS_NUM, MAX_ABS_NUM, false, ans * (((CreateResult)num2).Res));
+                            return new CreateResult() { Str = num1.ToString() + " / " + num2.ToString(), Res = ((CreateResult)num1).Res / ((CreateResult)num2).Res };
+                        }
+                    case 5:
+                        if (must) break;
+                        if (size == 0 || size + 2 > max) break;
+                        num1 = f(size, max, options, MIN_ABS_NUM, MAX_ABS_NUM, true);
+                        return new CreateResult() { Res = ((CreateResult)num1).Res, Str = "(" + ((CreateResult)num1).Str + ")" };
+                    default:
+                        if (must)
+                            break;
+                        if (size == 0) break;
+                        if (options == CreateOptions.UnsignedInteger)
+                            num1 = (r.Next(2) == 1 ? r.Next(MIN_ABS_NUM, MAX_ABS_NUM + 1) : -1 * r.Next(MIN_ABS_NUM, MAX_ABS_NUM + 1));
+                        else
+                            num1 = r.Next(MIN_ABS_NUM, MAX_ABS_NUM + 1);
+                        return new CreateResult() { Res = (int)num1, Str = ((int)num1 < 0 ? "(" + num1.ToString() + ")" : num1.ToString()) };
+                }
+            } while (true);
+        }
+
+        private enum CreateOptions
+        {
+            Default = 0,
+            UnsignedInteger,
+            Integer
+        }
+
+        private struct CreateResult
+        {
+            public string Str;
+            public int Res;
+
+            public override string ToString()
+            {
+                return Str;
+            }
+        }
+    }
+}

@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language>
+	
+	<dir>ltr</dir>
+	<country>Russia</country>
+	<stringInEnglish>Russian</stringInEnglish>
+
+	<default>
+		<string id="application name">Математические операции</string>
+		<string id="close">Закрыть</string>
+		<string id="cancel">Отмена</string>
+		<string id="next">Следующая ></string>
+		<string id="finish">конец</string>
+		<string id="of">От - </string>
+		<string id="send">Отправить</string>
+		<string id="yes">да</string>
+		<string id="no">нет</string>
+
+		<!-- peulot -->
+		<string id="plus">соединение</string>
+		<string id="minus">Минус</string>
+		<string id="kefel">Умножение</string>
+		<string id="hiluk">Разделить</string>
+		<string id="random">Случайные действия</string>
+		<string id="compare">Сравнение</string>
+		<string id="time">время - </string>
+		
+		<string id="msgBox mark title">оценка</string>
+		<string id="msgBox mark text">Ваша оценка</string>
+		<!-- end peulot -->
+	</default>
+
+	<form id="main">
+		<string id="title">главный</string>
+
+		<!-- menu -->
+		
+		<string id="menu_file">Файл</string>
+		<string id="menu_file_name">Переименование</string>
+		<string id="menu_file_save">Сохранить оценки как</string>
+		<string id="menu_file_exit">Выход</string>
+		<string id="menu_file_language">Обновление языка</string>
+		<string id="menu_file_changeDifficulty">Изменить трудность</string>
+		
+		<string id="menu_clear">Очистка файлов</string>
+		<string id="menu_clear_settings">Удаление параметров</string>
+		<string id="menu_clear_clearAllData">Удалите всю информацию</string>
+		<string id="menu_clear_marks">очистить файл оценки</string>
+		
+		<string id="menu_about">О</string>
+		<string id="menu_about_contact">Контакт</string>
+		<string id="menu_about_about">О</string>
+
+		<!-- end menu -->
+
+		<!-- tab page -->
+		<string id="tabPage_hiuvi">Позитивные</string>
+		<string id="tabPage_mehuvanim">настоящий</string>
+		<string id="tabPage_shever">Фракции</string>
+		<string id="tabPage_ahuzim">Процент</string>
+		<string id="tabPage_watchResults">Результаты</string>
+		<!-- end tab page -->
+
+		<!-- open window buttons -->
+		<string id="watch all individual">Посмотреть все результаты отдельно</string>
+		<string id="watch all table">Видя все результаты в таблице</string>
+		<!-- end open window buttons -->
+	</form>
+
+	<form id="ask name">
+		<string id="title">Имя</string>
+		<string id="label3">Фамилия:</string>
+		<string id="label2">Имя:</string>
+		<string id="button1">ОК</string>
+		<string id="missing">Отсутствует!</string>
+	</form>
+
+	<form id="login">
+		<string id="title">Подключение</string>
+
+		<!-- controls -->
+		<string id="lb_username">Имя пользователя:</string>
+		<string id="lb_password">Пароль:</string>
+		<string id="bt_submit">войти</string>
+		<string id="cb_remember">Запомнить меня</string>
+		<!-- end controls -->
+		
+		<string id="error1_title">Неверный логин</string>
+		<string id="error1_text">Имя пользователя или пароль неправильные! {0}Осталось еще {1} попыток.</string>
+		
+		<string id="error2_text">Вы попытались слишком много раз. Доступ заблокирован.</string>
+		<string id="error2_title">Доступ заблокирован</string>
+	</form>
+
+	<form id="SeeMarks">
+		<string id="title">оценки</string>
+		<string id="lb_name">Имя</string>
+		<string id="lb_date">Дата</string>
+		<string id="lb_Time">время</string>
+		<string id="lb_type">Действия</string>
+		<string id="lb_mark">Определяет</string>
+		<string id="lb_finishTime">Время работы</string>
+		<string id="lb_difficulty">трудность</string>
+		<string id="bt_prev">Предыдущий</string>
+		<string id="bt_next">Следующая</string>
+		<string id="bt_remove">удалить оценку</string>
+
+		<!-- errors -->
+		<string id="error title">ошибка</string>
+		<string id="error empty file">пустой файл</string>
+		<!-- end errors -->
+	</form>
+
+	<form id="About">
+		<string id="title">О</string>
+		<string id="lb_productName">Название продукта : Математические операции</string>
+		<string id="lb_version">Версия : </string>
+		<string id="lb_copyrights">Права защищены создателю программы, Артур Замарин</string>
+		<string id="lb_text">Описание:</string>
+		<string id="textBox_line 1">Это специальное программа, которое помогает обучения обычные арифметические действии.</string>
+		<string id="textBox_line 2">Программа очень проста в использовании.</string>
+		<string id="textBox_line 3">Программа позволяет пользователю взять вопрос арифметических операций, что дает упражнения, пользователь отвечает на него, и 10 вопросов. Наконец, программа проверяет ответы и пользователь получает оценку.</string>
+		<string id="textBox_line 4">Наконец, программа также записывает на компьютере всех оценок, чтобы он мог смотреть на них всегда с одного компьютера.</string>
+	</form>
+
+	<form id="AllMarks_organize">
+		<string id="title">все результаты в таблице</string>
+		<string id="label1">Фильтр по:</string>
+		<string id="rb_all">Показать все</string>
+		<string id="rb_date">По дате:</string>
+		<string id="rb_name">По имени:</string>
+		<string id="rb_peula">По действий:</string>
+		<string id="choose">Выбрать</string>
+	</form>
+
+	<form id="contact">
+		<string id="title">Контакт</string>
+		<string id="text">Если вы хотите связаться со мной, это ваш вариант: {0}{1} электронной почта {0} когда вы отправить мне сообщение, объяснить себя наилучшим образом.</string>
+	</form>
+
+	<form id="ChangeDifficulty">
+		<string id="title">Изменить трудность</string>
+		<string id="lb_text">Выберите уровень сложности:</string>
+		<string id="easy">легкий</string>
+		<string id="medium">Средний</string>
+		<string id="hard">тяжелый</string>
+	</form>
+
+	<form id="register">
+		<string id="welcome title">Добро пожаловать</string>
+		<string id="welcome text">Этот процесс установки установки программу "арифметические действии".</string>
+		
+		<string id="properties title">Надстройки</string>
+		<string id="properties label1">Вы можете выбрать дополнительные экстры:</string>
+		<string id="properties1 label2">Программное обеспечение будет сохранять файлы:</string>
+		<string id="properties1 rb_folder_auto">Автоматическая папку (рекомендуется)</string>
+		<string id="properties1 rb_folder_manual">Выбрать папку (не рекомендуется)</string>
+		<string id="properties1 bt_chooseFolder">Выбрать...</string>
+		<string id="properties2 cb_oneRememberedName">Программное обеспечение работает только с одним именем</string>
+		<string id="properties2 label4">Для того, чтобы делать специальные вещи, вам необходимо подключиться{0}выбрать имя пользователя и пароль:</string>
+		
+		<string id="finish title">конец</string>
+		<string id="finish text">Благодарим Вас за установку "Математические операции".{0}{0}Если вы столкнулись с проблемой: {0} E-mail : {1}</string>
+	</form>
+
+	<peula id="numbers">
+		<string id="AbleDivide title">Признаки разделения</string>
+		<string id="AbleDivide divideable">делится на </string>
+	</peula>
+</language>

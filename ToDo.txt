@@ -1,0 +1,19 @@
+﻿1. To enable changing the properties:
+   * Auto name + the name
+   * Folder for saving marks
+   * Computer type
+   * Login data
+
+2. New quiz: Divide with Part (חילוק בשארית)
+
+3. New quiz: Choose triangle type.
+   * Just in easy difficulty.
+   * Choose 3 random points in a panel, and draws the triangle.
+   * 2 radio-groups of 3 radio (6 at all): first group - the lines, secend group - the angels.
+
+4. New quiz: Choose angel type
+   * Just in easy difficulty.
+   * The angel is = 10 * Random.Next (1, 19)
+   * Button types: חדה, ישרה, קהה, שטוחה
+
+5. On the main form, set the font of the menu.
