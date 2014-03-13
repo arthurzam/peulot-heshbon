@@ -1,0 +1,64 @@
+﻿<resources>
+
+
+    <string name="app_name">Математические операции</string>
+    <string name="tab_results">Результаты</string>
+
+    <string name="tab_results_lb_average">Общая средняя оценка: </string>
+
+    <string name="tab_results_bt_watch">Смотреть все результаты</string>
+
+    <string name="save_csv">Сохранить как файл CSV</string>
+
+
+    <string name="preference_Name_title">Полное имя</string>
+
+    <string name="preference_Settings_title">Настройки</string>
+
+    <string name="name_first">Имя</string>
+
+    <string name="name_last">Фамилия</string>
+
+    <string name="difficulty">Cложность:</string>
+
+    <string name="save_marks">Сохранить результаты</string>
+
+    <string name="save_marks_summery">После каждого теста, результаты будут сохранены</string>
+
+
+    <string name="send">Отправлять</string>
+
+    <string name="mark_result">Ваша оценка является: </string>
+    <string name="close">Закрыть</string>
+
+    <string name="ok">хорошо</string>
+	
+
+    <string name="contact">Связаться с Нами</string>
+
+    <string name="email_title">Математические операции для Android</string>
+
+
+    <string name="help">Помощь</string>
+
+    <string name="help_text">Если вы хотите сделать экзамен, нажмите на вкладку в главном и выбрать свой экзамен. Если вы хотите посмотреть результаты, выберите на вкладке Результаты и наблюдать за ними.</string>
+
+    <string name="about">О программе</string>
+
+    <string name="about_text">Эта программа была создана Артуром Замарин.</string>
+
+    <string name="grades">результаты</string>
+
+
+    <string name="grade">результат</string>
+
+    
+
+    <string name="date">Дата</string>
+
+    <string name="time">Время</string>
+
+
+    <string name="exam">Экзамен</string>
+
+</resources>

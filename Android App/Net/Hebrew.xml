@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<dir>rtl</dir>
+	<country>Israel</country>
+	<stringInEnglish>Hebrew</stringInEnglish>
+
+	<default>
+		<string id="application name">פעולות חשבון</string>
+		<string id="close">סגור</string>
+		<string id="cancel">ביטול</string>
+		<string id="next">הבא ></string>
+		<string id="finish">סיום</string>
+		<string id="of">מ- </string>
+		<string id="send">שלח</string>
+		<string id="yes">כן</string>
+		<string id="no">לא</string>
+		
+		<!-- peulot -->
+		<string id="plus">חיבור</string>
+		<string id="minus">חיסור</string>
+		<string id="kefel">כפל</string>
+		<string id="hiluk">חילוק</string>
+		<string id="random">פעולה אקראית</string>
+		<string id="compare">השוואה</string>
+		<string id="time">זמן - </string>
+		
+		<string id="msgBox mark title">ציון</string>
+		<string id="msgBox mark text">הציון שלך הוא</string>
+		<!-- end peulot -->
+	</default>
+	
+	<form id="main">
+		<string id="title">ראשי</string>
+
+		<!-- menu -->
+
+		<string id="menu_file">קובץ</string>
+		<string id="menu_file_name">שנה שם</string>
+		<string id="menu_file_save">שמור ציונים בשם</string>
+		<string id="menu_file_exit">צא</string>
+		<string id="menu_file_language">עדכן שפה</string>
+		<string id="menu_file_changeDifficulty">שנה קושי</string>
+		<string id="menu_file_changeFont">שנה גופן</string>
+		
+		<string id="menu_clear">ניקוי קבצים</string>
+		<string id="menu_clear_settings">מחק הגדרות</string>
+		<string id="menu_clear_clearAllData">מחיקת כל המידע</string>
+		<string id="menu_clear_marks">ניקוי קובץ ציונים</string>
+
+		<string id="menu_about">אודות</string>
+		<string id="menu_about_contact">יצירת קשר</string>
+		<string id="menu_about_about">אודות</string>
+
+		<!-- end menu -->
+
+		<!-- tab page -->
+		<string id="tabPage_hiuvi">חיובים</string>
+		<string id="tabPage_mehuvanim">מכוונים</string>
+		<string id="tabPage_shever">שברים</string>
+		<string id="tabPage_ahuzim">אחוזים</string>
+		<string id="tabPage_watchResults">תוצאות</string>
+		<!-- end tab page -->
+		
+		<!-- open window buttons -->
+		<string id="watch all individual">צפייה בכל הציונים בנפרד</string>
+		<string id="watch all table">צפייה בכל הציונים בטבלה</string>
+		<!-- end open window buttons -->
+	</form>
+
+	<form id="ask name">
+		<string id="title">שם</string>
+		<string id="label3">שם משפחה:</string>
+		<string id="label2">שם פרטי:</string>
+		<string id="button1">אישור</string>
+		<string id="missing">חסר!</string>
+	</form>
+
+	<form id="login">
+		<string id="title">התחברות</string>
+		
+		<!-- controls -->
+		<string id="lb_username">שם משתמש:</string>
+		<string id="lb_password">סיסמה:</string>
+		<string id="bt_submit">התחבר</string>
+		<string id="cb_remember">זכור אותי</string>
+		<!-- end controls -->
+
+		<string id="error1_title">פרטי כניסה לא נכונים</string>
+		<string id="error1_text">שם משתמש או סיסמה לא נכונים{0}נשארו עוד{1}ניסיונות</string>
+
+		<string id="error2_text">ניסיתה יותר מדי פעמים. גישה נחסמה.</string>
+		<string id="error2_title">חסימה</string>
+	</form>
+
+	<form id="SeeMarks">
+		<string id="title">ציונים</string>
+		<string id="lb_name">שם</string>
+		<string id="lb_date">תאריך</string>
+		<string id="lb_Time">זמן</string>
+		<string id="lb_type">פעולה</string>
+		<string id="lb_mark">ציון</string>
+		<string id="lb_finishTime">זמן עבודה</string>
+		<string id="lb_difficulty">קושי</string>
+		<string id="bt_prev">הקודם</string>
+		<string id="bt_next">הבא</string>
+		<string id="bt_remove">מחק ציון</string>
+
+		<!-- errors -->
+		<string id="error title">שגיאה</string>
+		<string id="error empty file">קובץ ריק</string>
+		<!-- end errors -->
+	</form>
+
+	<form id="About">
+		<string id="title">אודות</string>
+		<string id="lb_productName">שם המוצר : פעולות חשבון</string>
+		<string id="lb_version">גרסה : </string>
+		<string id="lb_copyrights">זכויות שמורות לארתור זמרין, יוצר התוכנה</string>
+		<string id="lb_text">תיאור התוכנה:</string>
+		<string id="textBox_line 1">זוהי תוכנה מיוחדת העוזרת בלימוד פעולות חשבון רגילות בדרכים שונות ומגוונות.</string>
+		<string id="textBox_line 2">התוכנה מאוד נוחה לשימוש וידידותית למשתמש.</string>
+		<string id="textBox_line 3">התוכנה מאפשרת למשתמש להיבחן בנושא של פעולות חשבון, בכך שהתוכנה נותנת תרגיל, המשתמש עונה עליו, וכך 10 שאלות (בדרך כלל). לבסוף התוכנה בודקת את התשובות והמשתמש מקבל ציון.</string>
+		<string id="textBox_line 4">לבסוף התוכנה גם רושמת על המחשב את כל הציונים כך שהוא יוכל לצפות בהם תמיד מאותו מחשב.</string>
+		
+	</form>
+
+	<form id="AllMarks_organize">
+		<string id="title">כל הציונים בטבלה</string>
+		<string id="label1">סנן לפי:</string>
+		<string id="rb_all">הצג הכל</string>
+		<string id="rb_date">לפי תאריך:</string>
+		<string id="rb_name">לפי שם:</string>
+		<string id="rb_peula">לפי פעולה:</string>
+		<string id="choose">בחר</string>
+	</form>
+
+	<form id="contact">
+		<string id="title">יצירת קשר</string>
+		<string id="text">במידה ואתם רוצים ליצור איתי קשר האפשרות שלכם היא:{0}דואר אלקטרוני  - {1}{0}כשאתם שולחים לי הודעה, הסבירו את עצמכם בצורה הכי טובה.{0}בהצלחה.</string>
+	</form>
+
+	<form id="ChangeDifficulty">
+		<string id="title">שנה קושי</string>
+		<string id="lb_text">בחר קושי:</string>
+		<string id="easy">קל</string>
+		<string id="medium">בינוני</string>
+		<string id="hard">קשה</string>
+	</form>
+
+	<form id="ChangeFont">
+		<string id="title">שנה גופן</string>
+		<string id="lb_text">בחר גופן:</string>
+		<string id="lb_font">גופן:</string>
+		<string id="lb_size">גודל:</string>
+	</form>
+
+	<form id="register">
+		<string id="welcome title">ברוך הבא</string>
+		<string id="welcome text">בתהליך התקנה זה אתם תתקינו את התוכנה "פעולות חשבון".{0}מטרת התוכנה לימוד תלמידי בית ספר יסודי חשבון.</string>
+		
+		<string id="properties title">תוספות</string>
+		<string id="properties label1">כעט תוכל לבחור את התוספות הנוספות:</string>
+		<string id="properties1 label2">התוכנה תשמור את הקבצים שלה:</string>
+		<string id="properties1 rb_folder_auto">במקום האוטומטי (מומלץ)</string>
+		<string id="properties1 rb_folder_manual">אבחר בעצמי את התיקייה (לא מומלץ)</string>
+		<string id="properties1 bt_chooseFolder">בחר...</string>
+		<string id="properties2 cb_oneRememberedName">התוכנה תעבוד רק עם שם אחד</string>
+		<string id="properties2 label4">על מנת לעשות דברים מיוחדים, תצטרך להתחבר{0}בחר סיסמה ושם משתמש שישרתו אותך:</string>
+
+		<string id="finish title">סיום</string>
+		<string id="finish text">תודה שהתקנתם את התוכנה "פעולות חשבון".{0}{0}פרטים אם נתקלתם בבעיה (ניתן למצוא אותם גם בתוכנה בקטגוריה "אודות"):{0}דואר אלקטרוני : {1}{0}{0}כדי להשתמש בתוכנה, הפעילו אותה מחדש.{0}בהצלחה!</string>
+	</form>
+
+	<peula id="numbers">
+		<string id="AbleDivide title">סימני התחלקות</string>
+		<string id="AbleDivide divideable">מתחלק ב-</string>
+	</peula>
+</language>

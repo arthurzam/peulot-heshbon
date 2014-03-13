@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+menu/settings" android:title="@string/preference_Settings_title" android:icon="@drawable/settings"></item>
+    <item android:id="@+menu/about" android:title="@string/about" android:icon="@drawable/about"></item>
+    
+    <item android:id="@+menu/help" android:title="@string/help" android:icon="@drawable/help"></item><item android:id="@+menu/contact" android:title="@string/contact" android:icon="@drawable/email"></item>
+</menu>

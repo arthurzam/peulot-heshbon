@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="difficulty_entries">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+    <string-array name="operations">
+        <item>addition</item>
+        <item>subtraction</item>
+        <item>multiplication</item>
+        <item>divide</item>
+    </string-array>
+    <string-array name="QueTypes">
+        <item>Normal</item>
+        <item>Real</item>
+        <item>Fragments</item>
+    </string-array>
+</resources>

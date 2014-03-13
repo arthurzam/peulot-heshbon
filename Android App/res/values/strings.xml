@@ -1,0 +1,38 @@
+<resources>
+
+    <string name="app_name">Peulot Heshbon</string>
+    
+	<string name="tab_results">Results</string>
+	<string name="tab_results_lb_average">Total average grade: </string>
+	<string name="tab_results_bt_watch">Watch all grades</string>
+	<string name="save_csv">Save as csv file</string>
+	
+	<string name="preference_Name_title">Full name</string>
+	<string name="preference_Settings_title">Settings</string>
+	
+	<string name="name_first">First Name</string>
+	<string name="name_last">Last Name</string>
+	<string name="difficulty">Difficulty</string>
+	<string name="save_marks">Save Marks</string>
+	<string name="save_marks_summery">After every test the grade will be saved</string>
+	
+	<string name="send">Send</string>
+	<string name="mark_result">Your grade is: </string>
+	<string name="none">###</string>
+	<string name="close">Close</string>
+	<string name="ok">OK</string>
+	
+	<string name="contact">Contact</string>
+	<string name="email_title">Peulot Heshbon For Android</string>
+	<string name="help">Help</string>
+	<string name="help_text">If you want to make an exam, click on a tab in the main actibity and choose your exam. If you want to watch the results, choose the Results tab and watch them.</string>
+	<string name="about">About</string>
+	<string name="about_text">This program was created by Arthur Zamarin.</string>
+	
+	<string name="grades">Grades</string>
+	<string name="grade">Grade</string>
+	<string name="date">Date</string>
+	<string name="time">Time</string>
+	<string name="exam">Exam</string>
+	
+</resources>

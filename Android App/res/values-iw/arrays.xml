@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="difficulty_entries">
+        <item>קל</item>
+        <item>בינוני</item>
+        <item>קשה</item>
+    </string-array>
+    <string-array name="operations">
+        <item>חיבור</item>
+        <item>חיסור</item>
+        <item>כפל</item>
+        <item>חילוק</item>
+    </string-array>
+    <string-array name="QueTypes">
+        <item>חיוביים</item>
+        <item>מכוונים</item>
+        <item>שברים</item>
+    </string-array>
+</resources>

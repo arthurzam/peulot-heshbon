@@ -1,0 +1,36 @@
+<resources>
+
+    <string name="app_name">פעולות חשבון</string>
+    
+	<string name="tab_results">ציונים</string>
+	<string name="tab_results_lb_average">ציון ממוצע: </string>
+	<string name="tab_results_bt_watch">צפה בכל הציונים</string>
+	<string name="save_csv">שמור כקובץ csv</string>
+	
+	<string name="preference_Name_title">שם מלא</string>
+	<string name="preference_Settings_title">הגדרות</string>
+	
+	<string name="name_first">שם פרטי</string>
+	<string name="name_last">שם משפחה</string>
+	<string name="difficulty">קושי</string>
+	<string name="save_marks">שמירת ציונים</string>
+	<string name="save_marks_summery">אחרי כל מבחן הציון ישמר</string>
+	
+	<string name="send">שלח</string>
+	<string name="mark_result">ציונך הוא: </string>
+	<string name="close">סגור</string>
+	<string name="ok">אוקי</string>
+	
+	<string name="contact">צור קשר</string>
+	<string name="about">אודות</string>
+	<string name="help">עזרה</string>
+	<string name="help_text">אם אתה להיבחן, לחץ על כרטיסייה של נושא בחלון הראשי ובחר מבחן. במידה ואתה רוצה לצפות בציונים בחר בכרטיסייה תוצאות.</string>
+	<string name="about_text">התוכנה נוצרה על ידי ארתור זמרין</string>
+	<string name="email_title">פעולות חשבון לאנדרואיד</string>
+	
+	<string name="grades">ציונים</string>
+	<string name="grade">ציון</string>
+	<string name="date">תאריך</string>
+	<string name="time">זמן</string>
+	<string name="exam">מבחן</string>
+</resources>

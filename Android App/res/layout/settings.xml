@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/preference_Name_title"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+	<EditText
+        android:id="@+settings/tb_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+	<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/difficulty"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+	<Spinner
+        android:id="@+settings/ddp_difficulty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/difficulty_entries" />
+    <CheckBox
+        android:id="@+settings/cb_saveMark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/save_marks_summery"
+        android:text="@string/save_marks" />
+
+</LinearLayout>
